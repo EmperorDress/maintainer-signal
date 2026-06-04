@@ -1,5 +1,9 @@
 # Maintainer Signal
 
+[![CI](https://github.com/EmperorDress/maintainer-signal/actions/workflows/ci.yml/badge.svg)](https://github.com/EmperorDress/maintainer-signal/actions/workflows/ci.yml)
+[![GitHub Pages](https://github.com/EmperorDress/maintainer-signal/actions/workflows/pages.yml/badge.svg)](https://emperordress.github.io/maintainer-signal/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Maintainer Signal is a small open-source toolkit for GitHub maintainers. It
 turns new issues, pull requests, and commit lists into practical triage notes:
 priority, suggested labels, risk areas, maintainer questions, and release-note
