@@ -102,6 +102,11 @@ jobs:
 
 Set `use-openai: true` only after adding `OPENAI_API_KEY` as a repository secret.
 
+For a conservative rollout in an existing repository, see the
+[first-adopter setup guide](docs/first-adopter-setup.md). It covers dry-run and
+comment modes, OpenAI opt-in, rollback steps, and GitHub Actions permission
+troubleshooting.
+
 For pull requests, the Action reads changed filenames through the GitHub API and
 uses those names as triage signals. This helps detect CI, dependency, frontend,
 backend, docs, and test-related changes without reading arbitrary file contents.
