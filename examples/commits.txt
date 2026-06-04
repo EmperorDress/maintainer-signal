@@ -1,0 +1,4 @@
+feat: add issue triage report
+fix: avoid comments without explicit permission
+docs: explain GitHub Action setup
+chore: add deterministic tests

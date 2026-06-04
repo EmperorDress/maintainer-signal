@@ -1,0 +1,28 @@
+name: Maintainer Signal
+description: Summarize issue and pull request maintenance signals.
+author: Maintainer Signal contributors
+branding:
+  icon: activity
+  color: blue
+inputs:
+  use-openai:
+    description: Use OpenAI when OPENAI_API_KEY is present.
+    required: false
+    default: "false"
+  model:
+    description: OpenAI model to use when use-openai is true.
+    required: false
+    default: "gpt-5.4-mini"
+  comment:
+    description: Post the report as a GitHub issue or PR comment.
+    required: false
+    default: "false"
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: node "$GITHUB_ACTION_PATH/src/action.js"
+      env:
+        INPUT_USE_OPENAI: ${{ inputs.use-openai }}
+        INPUT_MODEL: ${{ inputs.model }}
+        INPUT_COMMENT: ${{ inputs.comment }}

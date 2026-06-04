@@ -1,0 +1,28 @@
+{
+  "name": "maintainer-signal",
+  "version": "0.1.0",
+  "description": "OSS maintainer helper for issue triage, PR review summaries, and release notes.",
+  "type": "module",
+  "bin": {
+    "maintainer-signal": "./src/cli.js"
+  },
+  "scripts": {
+    "demo": "node src/cli.js demo",
+    "triage": "node src/cli.js triage",
+    "release-notes": "node src/cli.js release-notes",
+    "test": "node --test"
+  },
+  "keywords": [
+    "oss",
+    "maintainers",
+    "github-action",
+    "triage",
+    "release-notes",
+    "openai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
