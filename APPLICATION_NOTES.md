@@ -1,35 +1,57 @@
 # Codex for OSS Application Notes
 
-These notes are draft material for the OpenAI Codex for OSS form. Keep the final
-application accurate and do not claim usage, stars, downloads, or maintainer
-status that the repository does not have.
+Use these notes for the OpenAI Codex for OSS form. Keep the application accurate:
+do not claim stars, downloads, users, or external adoption that the repository
+does not have yet.
 
-## Role
+## Fixed fields
 
-Primary maintainer.
+GitHub username:
 
-## Why this repository is eligible
+```text
+EmperorDress
+```
 
-Draft for a new project:
+GitHub repository URL:
 
-> Maintainer Signal is an open-source maintainer automation project for GitHub
-> triage, PR risk summaries, and release-note workflows. It is early-stage, but
-> directly targets repetitive OSS maintenance work and demonstrates a concrete,
-> auditable use case for Codex/API-assisted maintainer workflows.
+```text
+https://github.com/EmperorDress/maintainer-signal
+```
 
-For a stronger application, replace this with metrics from an existing public
-project: stars, forks, package downloads, active issues, contributors, releases,
-and why the project matters to users.
+Role:
 
-## API credit use
+```text
+Primary maintainer
+```
 
-> API credits would power optional maintainer workflows: issue and PR summaries,
-> suggested labels, release-note drafts, and security-sensitive review
-> checklists. The project keeps deterministic dry-run behavior and uses API
-> calls only when maintainers explicitly enable them with repository secrets.
+Interests:
 
-## Extra context
+```text
+Codex Security
+API credits for my project
+```
 
-> The repository is designed for transparent OSS maintenance: conservative
-> GitHub permissions, no automatic code changes, no secret logging, CLI dry-run
-> mode, CI tests, and GitHub Pages documentation.
+## Why does this repository qualify?
+
+```text
+Maintainer Signal is an early-stage OSS maintainer automation project for issue triage, PR risk summaries, changed-file signals, and release-note workflows. It targets real maintenance tasks with a CLI, GitHub Action, CI, CodeQL, Pages docs, releases, security policy, and a public roadmap.
+```
+
+## How will you use API credits for your project?
+
+```text
+API credits would power optional maintainer workflows: issue and PR summaries, suggested labels, release-note drafts, security-sensitive review checklists, and maintainer comment templates. The project stays dry-run by default and uses API calls only when maintainers explicitly enable a repository secret.
+```
+
+## Anything else we should know?
+
+```text
+The repository is designed for transparent OSS maintenance: conservative GitHub permissions, no automatic code changes, no secret logging, deterministic tests, CodeQL, Dependabot, GitHub Pages docs, releases, and roadmap issues tracking future maintainer workflow work.
+```
+
+## Needed from the applicant
+
+- First name.
+- Last name.
+- Email associated with the ChatGPT account.
+- OpenAI Organization ID.
