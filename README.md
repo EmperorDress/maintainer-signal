@@ -14,6 +14,12 @@ the OpenAI Responses API when `OPENAI_API_KEY` is configured.
 
 Maintainer Signal is not affiliated with OpenAI.
 
+Project site: https://emperordress.github.io/maintainer-signal/
+
+Demo report: [docs/demo-report.md](docs/demo-report.md)
+
+Roadmap: [ROADMAP.md](ROADMAP.md)
+
 ## Why this exists
 
 Open-source maintainers spend time on repetitive review work: finding risky PRs,
@@ -96,6 +102,10 @@ jobs:
 
 Set `use-openai: true` only after adding `OPENAI_API_KEY` as a repository secret.
 
+For pull requests, the Action reads changed filenames through the GitHub API and
+uses those names as triage signals. This helps detect CI, dependency, frontend,
+backend, docs, and test-related changes without reading arbitrary file contents.
+
 ## Safety model
 
 Maintainer Signal reads GitHub event metadata, issue text, PR text, filenames,
@@ -113,10 +123,7 @@ with "GitHub Actions" as the source. The static project site lives in `docs/`.
 
 ## Roadmap
 
-- Configurable label maps per repository.
-- Saved maintainer checklists for release managers.
-- SARIF output for security-focused triage.
-- Optional PR comment templates by risk category.
+See [ROADMAP.md](ROADMAP.md).
 
 ## License
 

@@ -1,0 +1,13 @@
+{
+  "action": "opened",
+  "pull_request": {
+    "title": "Fix OAuth token refresh race",
+    "body": "Users can get logged out when two refresh requests overlap in production.",
+    "url": "https://api.github.com/repos/example/project/pulls/42",
+    "_links": {
+      "comments": {
+        "href": "https://api.github.com/repos/example/project/issues/42/comments"
+      }
+    }
+  }
+}
